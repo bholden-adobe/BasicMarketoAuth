@@ -105,7 +105,7 @@ namespace BasicMarketoAuth
 
                 bool IsMarketoErrorRetryable(string errorCode)
                 {
-                    return errorCode == "602" || errorCode == "601";
+                    return errorCode == "602" || errorCode == "601" || errorCode == "606" || errorCode == "615";
                 }
                 return returnValue;
             }
